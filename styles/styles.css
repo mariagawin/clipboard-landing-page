@@ -1,0 +1,186 @@
+body {
+  background-color: hsl(0, 100%, 100%);
+  color: hsl(201, 11%, 66%);
+
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+
+  text-align: center;
+}
+
+header {
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  margin-bottom: 160px;
+}
+
+header p,
+.app-download p {
+  margin-bottom: 48px;
+}
+
+header,
+section {
+  padding: 0 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  letter-spacing: -0.521739px;
+  line-height: 40px;
+}
+
+h1,
+h2 {
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: -0.456522px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.391304px;
+}
+
+p {
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+
+footer {
+  background-color: hsl(180, 11%, 96%);
+  color: hsl(210, 10%, 33%);
+  padding: 52px 108px;
+}
+
+.main-logo {
+  margin: 125px auto 64px;
+}
+
+.ios-download,
+.mac-download {
+  border-radius: 28px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+
+  display: block;
+  color: hsl(0, 100%, 100%);
+
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+
+  padding: 13px 50px;
+}
+
+.ios-download {
+  background-color: hsl(171, 66%, 44%);
+  margin-bottom: 26px;
+}
+
+.mac-download {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.app-features {
+  margin-bottom: 186px;
+}
+
+.app-features h3 {
+  margin-bottom: 10px;
+}
+
+.app-features > p,
+.app-access > p {
+  margin-bottom: 65px;
+}
+
+.app-features > img {
+  margin-bottom: 56px;
+}
+
+.app-features ul {
+  margin-top: 0;
+}
+
+.app-features > ul p {
+  margin-bottom: 48px;
+}
+
+.app-access {
+  margin-bottom: 130px;
+}
+
+.app-tools {
+  margin-bottom: 73px;
+}
+
+.app-tools > p {
+  margin-bottom: 90px;
+}
+
+.app-tools h3 {
+  margin-bottom: 18px;
+}
+
+.app-tools li {
+  margin-bottom: 56px;
+}
+
+.app-tools svg {
+  margin-bottom: 44px;
+}
+
+.companies-logos,
+.app-download {
+  margin: 0 auto 170px;
+}
+
+.companies-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.companies-logos img {
+  padding: 57px 118px 0;
+}
+
+.navigation-links {
+  margin: 44px auto;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.135px;
+  line-height: 30px;
+}
+
+.navigation-links a {
+  display: block;
+  margin: 0 0 20px;
+}
+
+.social-media {
+  padding: 0;
+}
+
+.fb-logo,
+.twitter-logo {
+  padding-right: 39px;
+}

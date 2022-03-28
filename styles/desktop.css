@@ -1,0 +1,169 @@
+body {
+  font-size: 18px;
+}
+
+header {
+  background-image: url(../images/bg-header-desktop.png);
+  margin-bottom: 142px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 19px;
+}
+
+header > p {
+  margin: 0 auto 48px;
+}
+
+section {
+  padding: 0;
+}
+
+.main-logo {
+  margin-bottom: 56px;
+}
+
+.ios-download,
+.mac-download {
+  display: inline;
+  font-size: 18px;
+  width: 227px;
+}
+
+.ios-download {
+  margin-right: 16px;
+}
+
+.ios-download:hover {
+  background-color: hsla(171, 66%, 44%, 0.6);
+}
+
+.mac-download:hover {
+  background-color: hsla(233, 100%, 69%, 0.6);
+}
+
+header > p,
+.app-features > h2,
+.app-features > p,
+.app-access > h2,
+.app-access > p,
+.app-tools > h2,
+.app-tools > p,
+.app-download {
+  padding: 0 355px;
+}
+
+.app-features {
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+}
+
+.app-features > p {
+  margin-bottom: 80px;
+}
+
+.app-features img {
+  position: absolute;
+  left: -64px;
+  margin-bottom: 0;
+}
+
+.app-features ul {
+  position: relative;
+  left: 830px;
+  top: 90px;
+  max-width: 350px;
+  text-align: left;
+}
+
+.app-features > ul p {
+  font-size: 16px;
+  margin-bottom: 56px;
+}
+
+.app-access {
+  margin-bottom: 0;
+}
+
+.app-access > p {
+  margin-bottom: 110px;
+}
+
+.app-access > img {
+  margin-bottom: 60px;
+  padding: 0 314px;
+}
+
+.app-tools {
+  margin-bottom: 150px;
+}
+
+.app-tools ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 165px;
+}
+
+.app-tools ul li {
+  font-size: 16px;
+  max-width: 350px;
+  margin-bottom: 0;
+}
+
+.companies-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  margin-bottom: 150px;
+}
+
+.companies-logos img {
+  padding: 0;
+}
+
+.app-download h2 {
+  margin-bottom: 19px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navigation-links {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  align-content: space-around;
+  max-height: 72px;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+}
+
+.navigation-links a {
+  padding-right: 80px;
+  margin: 0 0 5px;
+}
+
+.navigation-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.social-media svg:hover path {
+  fill: hsl(171, 66%, 44%);
+}
