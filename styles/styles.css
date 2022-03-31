@@ -20,7 +20,8 @@ header p,
 }
 
 header,
-section {
+section,
+aside {
   padding: 0 32px;
 }
 
@@ -96,6 +97,14 @@ footer {
 
 .mac-download {
   background-color: hsl(233, 100%, 69%);
+}
+
+.ios-download:hover {
+  background-color: hsla(171, 66%, 44%, 0.6);
+}
+
+.mac-download:hover {
+  background-color: hsla(233, 100%, 69%, 0.6);
 }
 
 .app-features {
@@ -183,4 +192,12 @@ footer {
 .fb-logo,
 .twitter-logo {
   padding-right: 39px;
+}
+
+.navigation-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.social-media svg:hover path {
+  fill: hsl(171, 66%, 44%);
 }

@@ -39,14 +39,6 @@ section {
   margin-right: 16px;
 }
 
-.ios-download:hover {
-  background-color: hsla(171, 66%, 44%, 0.6);
-}
-
-.mac-download:hover {
-  background-color: hsla(233, 100%, 69%, 0.6);
-}
-
 header > p,
 .app-features > h2,
 .app-features > p,
@@ -158,12 +150,4 @@ footer {
 .navigation-links a {
   padding-right: 80px;
   margin: 0 0 5px;
-}
-
-.navigation-links a:hover {
-  color: hsl(171, 66%, 44%);
-}
-
-.social-media svg:hover path {
-  fill: hsl(171, 66%, 44%);
 }
